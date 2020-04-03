@@ -1,3 +1,17 @@
+#right-column {
+float: left;
+width: 50%;
+display: block;
+height:inherit;
+}
+
+#left-column {
+float: left;
+border: 1px;
+width: 50%;
+height:inherit;
+}
+
 #about {
   background-color: $primary-color;
   background-image: linear-gradient(
