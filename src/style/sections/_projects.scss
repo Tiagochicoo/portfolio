@@ -1,8 +1,10 @@
 #projects {
-  background-color: $white-color;
-  color: $dark-blue-text;
+  background-color: #1a2836;
+  color: white;
   margin-top: -10rem;
   padding-top: 15rem;
+  z-index: 1;
+  position: relative;
 
   @include respond(tab-land) {
     margin-top: 0;
@@ -38,6 +40,7 @@
         font-weight: bold;
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
+        color: black;
 
         @include respond(phone) {
           font-size: 2rem;

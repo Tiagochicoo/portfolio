@@ -1,7 +1,9 @@
 .footer {
-  background-color: $dark-grey;
+  background-color: #1a2836;
   color: $white-color;
   padding: 4.8rem 0;
+  z-index: 2;
+  position: sticky;
 
   @include respond(phone) {
     border: 0px;
@@ -16,7 +18,8 @@
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
-      background-color: $dark-grey;
+      background-color: #1a2836;
+      text-decoration: underline;
 
       &:hover,
       &:active {
