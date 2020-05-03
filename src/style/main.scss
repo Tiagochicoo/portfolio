@@ -16,6 +16,10 @@
 @import './sections/hero';
 @import './sections/projects';
 
+.p {
+	display: none;
+}
+
 #contact {
 	margin-top: -200px;
 }
