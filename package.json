@@ -21,21 +21,23 @@
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^8.0.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.8",
     "mini-css-extract-plugin": "^2.9.2",
     "sass": "^1.83.4",
     "sass-loader": "^16.0.4",
     "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.6.1",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0",
     "webpack-merge": "^6.0.1"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",
-    "@popperjs/core": "^2.11.8",
     "simple-parallax-js": "^5.6.2",
     "tachyons": "^4.12.0",
     "tilt.js": "^1.2.1"
